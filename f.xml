@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Facade>
+    <!-- 颜色值支持十进制数值，或0x开头的十六进制数值 ；
+        建议避免 0 或 255；
+    -->
+    <!-- 一般窗口的公共配置
+        background 背景色
+        foreground 前景色
+     -->
+    <Widget background="0xD0D0D0" foreground="0x010101"/>
+
+    <!-- 按钮可设置背景色，或不设置，作透明处理； 
+        图片可设置边界，作九宫格缩放；否则整体缩放；
+        可单独设置文本颜色；
+    -->
+    <Button>
+        <Normal background="0xC0C0C0" left="20" top="20" right="20" bottom="20" text_color="0x010101">btn_normal.png</Normal>
+        <Press background="0xC0C0C0" left="20" top="20" right="20" bottom="20" text_color="0x010101">btn_press.png</Press>
+        <Disabled background="0xC0C0C0" left="20" top="20" right="20" bottom="20" text_color="0x010101">btn_disabled.png</Disabled>
+    </Button>
+</Facade>
